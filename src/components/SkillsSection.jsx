@@ -1,26 +1,8 @@
 import { useState } from "react";
-import cn from "../lib/utils";
+import cn from "../lib/utils.js";
+import { skills } from "../contents/skills.js";
+import { RiReactjsFill } from "react-icons/ri";
 
-const skills = [
-  //FRONTEND
-  { name: "HTML/CSS", level: "90", category: "frontend" },
-  { name: "JavaScript", level: "75", category: "frontend" },
-  { name: "React.js", level: "75", category: "frontend" },
-  { name: "Tailwind CSS", level: "70", category: "frontend" },
-
-  //BACKEND
-  { name: "Node.js", level: "75", category: "backend" },
-  { name: "Express.js", level: "75", category: "backend" },
-  { name: "MongoDB", level: "75", category: "backend" },
-
-  //TOOLS & TECHNOLOGIES
-  { name: "Git & GitHub", level: "75", category: "tools" },
-  { name: "Docker", level: "75", category: "tools" },
-  { name: "Postman", level: "75", category: "tools" },
-
-  //CORE COMPUTER SCIENCE
-  { name: "Data Structures & Algorithms", level: "75", category: "core" },
-];
 const categories = ["all", "frontend", "backend", "tools"];
 
 export default function SkillsSection() {
