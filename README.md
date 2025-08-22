@@ -1,12 +1,99 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio web application built with React and Vite. Showcase your projects, skills, and contact information with a sleek, interactive design.
 
-Currently, two official plugins are available:
+![Portfolio Screenshot](public/images/memedev.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Beautiful Hero Section**: Eye-catching introduction with animated backgrounds.
+- **Projects Showcase**: Display your best work with images and descriptions.
+- **Skills Section**: Highlight your technical skills with icons and categories.
+- **About Section**: Share your story and background.
+- **Contact Form**: Easy way for visitors to reach out.
+- **Theme Toggle**: Switch between light and dark modes.
+- **Responsive Design**: Looks great on all devices.
+- **Toast Notifications**: Modern UI feedback for user actions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## 📁 Project Structure
+
+```
+src/
+  App.jsx
+  index.css
+  main.jsx
+  assets/
+  components/
+    AboutSection.jsx
+    ContactSection.jsx
+    Footer.jsx
+    HeroSection.jsx
+    Navbar.jsx
+    ProjectsSection.jsx
+    SkillsSection.jsx
+    StarBackground.jsx
+    ThemeToggle.jsx
+    ui/
+      toast.jsx
+      toaster.jsx
+  contents/
+    projects.js
+    skills.js
+  hooks/
+    use-toast.js
+  lib/
+    utils.js
+  pages/
+    Homepage.jsx
+    NotFound.jsx
+  services/
+public/
+  images/
+    assembly.png
+    memedev.png
+    shourl.png
+```
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/lohanivaibhav4/Portfolio.git
+   cd Portfolio
+   ```
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+3. **Start the development server**
+   ```sh
+   npm run dev
+   ```
+4. **Open in browser**
+   Visit [http://localhost:5173](http://localhost:5173) to view your portfolio.
+
+## 🖌️ Customization
+
+- Update your projects in `src/contents/projects.js`.
+- Add your skills in `src/contents/skills.js`.
+- Edit sections in `src/components/` for personal details and style.
+- Replace images in `public/images/` for your own visuals.
+
+## 📤 Deployment
+
+You can deploy this portfolio easily on platforms like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [GitHub Pages](https://pages.github.com/).
+
+## 🙌 Credits
+
+Created by [Vaibhav Lohan](https://github.com/lohanivaibhav4)
+
+---
+
+Feel free to fork, customize, and share your own portfolio!
