@@ -4,6 +4,8 @@ import StarBackground from "../components/StarBackground";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
+import SkillsSection from "../components/SkillsSection";
+import ProjectsSection from "../components/ProjectsSection";
 
 export default function Homepage() {
   return (
@@ -21,6 +23,8 @@ export default function Homepage() {
       {/* MAIN CONTENT */}
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
 
       {/* FOOTER */}
 
