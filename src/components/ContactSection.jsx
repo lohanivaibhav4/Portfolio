@@ -94,10 +94,10 @@ export default function ContactSection() {
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="https://www.linkedin.com/in/lohanivaibhav4/" target="_blank">
-                  <Linkedin />
+                  <Linkedin size={48} />
                 </a>
                 <a href="https://www.instagram.com/lohanivaibhav4/" target="_blank">
-                  <Instagram />
+                  <Instagram size={48} />
                 </a>
               </div>
             </div>

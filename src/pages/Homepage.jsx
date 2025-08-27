@@ -8,6 +8,7 @@ import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import AchievementSection from "../components/AchievementSection";
 
 export default function Homepage() {
   return (
@@ -27,6 +28,7 @@ export default function Homepage() {
       <AboutSection />
       <SkillsSection />
       <ProjectsSection />
+      <AchievementSection />
       <ContactSection />
 
       {/* FOOTER */}

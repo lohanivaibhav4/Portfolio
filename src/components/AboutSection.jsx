@@ -122,7 +122,8 @@ export default function AboutSection() {
                 Get In Touch
               </a>
               <a
-                href="#contact"
+                target="_blank"
+                href="https://drive.google.com/file/d/1IjVmRc48AEg1Axmit4HXydN84LOGrztF/view?usp=sharing"
                 className={cn(
                   "px-6 py-2 rounded-full border border-primary",
                   "hover:bg-primary/10 transition-colors duration-300"
