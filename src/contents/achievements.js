@@ -26,4 +26,12 @@ export const achievements = [
         image: "./images/leetcode.png",
         link:"https://leetcode.com/u/lohanivaibhav4/"
     },
+    {
+        id: 4,
+        title: "OCI - AI Foundations Associate",
+        description: "Completed the OCI AI Foundations learning path, covering AI, ML, Deep Learning, and Gen AI. Gained hands-on knowledge of applying these technologies within Oracle Cloud Infrastructure.",
+        authority:"Oracle",
+        image: "./images/ociai.png",
+        link:"https://catalog-education.oracle.com/ords/certview/sharebadge?id=C5ECD719C5904EC25BC6EEAB63B6CDE69BE5C4B17C2F85949A84138A9C33EC59"
+    },
 ] 
