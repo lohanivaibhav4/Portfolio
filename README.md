@@ -217,7 +217,7 @@ You can deploy this portfolio easily on platforms like [Vercel](https://vercel.c
 
 ## 🙌 Credits
 
-Created by [Vaibhav Lohan](https://github.com/lohanivaibhav4)
+Created by [Vaibhav Lohani](https://github.com/lohanivaibhav4)
 
 ---
 
